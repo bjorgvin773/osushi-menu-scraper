@@ -1,0 +1,27 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.food-card {
+  width: 19rem;
+  height: 45rem;
+  background-color: black;
+  color: white;
+  margin: 1rem;
+  padding: 1rem;
+}
+.food-card h3 {
+  font-size: 1.6rem;
+}
+.food-card .price {
+  font-size: 1.4rem;
+}
+label {
+  font-size: 1.2rem;
+}
